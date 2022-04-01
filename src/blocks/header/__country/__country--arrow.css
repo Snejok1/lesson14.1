@@ -1,0 +1,5 @@
+.header__country--arrow {
+    background: url(../img/header/arrow-select.svg);
+    background-repeat: no-repeat;
+    background-position: 6rem;
+}

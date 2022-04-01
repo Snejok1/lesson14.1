@@ -7,3 +7,7 @@
     font-size: 1.6rem;
     line-height: 140%;
 }
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
