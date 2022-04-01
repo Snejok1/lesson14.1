@@ -1,7 +1,6 @@
 {
   "name": "lesson-14",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +19,9 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-newer": "^1.4.0"
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.10"
   },
   "dependencies": {
     "vivus": "^0.4.6"
@@ -28,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/Snejok1/lesson14.1/issues"
   },
-  "homepage": "https://github.com/Snejok1/lesson14.1#readme"
+  "homepage": "https://github.com/Snejok1/lesson14.1#readme",
+  "description": ""
 }

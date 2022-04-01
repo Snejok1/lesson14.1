@@ -1,0 +1,4 @@
+.header-tel__text {
+  @include font(500, 1.9rem, 140%);
+  color: $color-text-black;
+}
