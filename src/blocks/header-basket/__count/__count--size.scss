@@ -4,3 +4,9 @@
   background: #0074D4;
   border-radius: 2.7rem;
 }
+
+@media (max-width: 48em) {
+  .header-basket__count--size {
+    padding: 0.4rem 1rem;
+  }
+}

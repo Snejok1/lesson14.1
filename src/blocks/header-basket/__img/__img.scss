@@ -6,7 +6,13 @@
 
 @media (max-width: 48em) {
   .header-basket__img {
-      width: 100%;
-      height: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+  .header-basket__img img {
+    width: 5.7rem;
+    height: 5.7rem;
   }
 }
