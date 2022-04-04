@@ -2,3 +2,9 @@
   @include maxWindth;
   margin-bottom: 1.6rem;
 }
+
+@media (max-width: 48em) {
+  .header__info {
+    margin: 0;
+  }
+}

@@ -4,8 +4,8 @@
 
 @media (max-width: 48em) {
   .header-basket__count {
-    position: relative;
-    top: -2.6rem;
-    right: -3.2rem;
+    position: absolute;
+    top: 1.5rem;
+    right: -1rem;
   }
 }
