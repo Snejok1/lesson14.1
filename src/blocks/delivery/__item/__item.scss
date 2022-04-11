@@ -1,0 +1,15 @@
+.delivery__item {
+    width: 36.3rem;
+    @include vercen;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+@media (max-width: 48em) {
+    .delivery__item {
+        flex-direction: row;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+  }

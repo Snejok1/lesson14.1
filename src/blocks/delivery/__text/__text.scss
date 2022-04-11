@@ -1,0 +1,15 @@
+.delivery__text {
+    @include font(300, 2.2rem, 150%);
+    margin-bottom: 1.3rem;
+}
+
+.text {
+    font-weight: 600;
+}
+
+@media (max-width: 48em) {
+    .delivery__text {
+        @include font(300, 1.6rem, 150%);
+        margin-bottom: 0.5rem;
+    }
+  }

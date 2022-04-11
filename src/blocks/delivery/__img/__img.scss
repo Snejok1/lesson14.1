@@ -1,0 +1,14 @@
+.delivery__img {
+    width: 8.8rem;
+    height: 8.8rem;
+    margin-bottom: 1.8rem;
+}
+
+@media (max-width: 48em) {
+    .delivery__img {
+        min-width: 4.8rem;
+        min-height: 4.8rem;
+        margin-bottom: 0;
+        margin-right: 0.8rem;
+    }
+  }

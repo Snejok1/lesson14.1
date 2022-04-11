@@ -1,0 +1,10 @@
+.delivery__link {
+    font-family: 'Manrope', sans-serif;
+    @include font(400, 1.5rem, 150%);
+}
+
+@media (max-width: 48em) {
+    .delivery__link {
+        @include font(300, 1.4rem, 150%);
+    }
+  }
