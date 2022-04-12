@@ -1,5 +1,6 @@
 .button__cart {
-    margin-top: 2rem;
-    padding: 1.85rem 3.8rem 2.25rem;
+    margin-top: 3rem;
+    @include font(600, 1.6rem, 140%);
+    padding: 1.85rem 4rem 2.2rem;
     display: none;
 }
