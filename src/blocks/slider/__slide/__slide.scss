@@ -1,0 +1,17 @@
+.slider__slide {
+    height: 64rem;
+    padding-top: 12rem;
+    padding-bottom: 21.9rem;
+}
+
+@media (max-width: 48em) {
+    .slider__slide {
+        height: 57rem;
+        padding-top: 16rem;
+        padding-bottom: 21.9rem;
+        background: url(../img/slider/slide-bg-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+}

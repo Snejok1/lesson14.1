@@ -1,0 +1,11 @@
+.delivery {
+    padding-top: 9.5rem;
+    padding-bottom: 9.2rem;
+}
+
+@media (max-width: 48em) {
+    .delivery {
+        padding-top: 0;
+        padding-bottom: 12.6rem;
+    }
+  }

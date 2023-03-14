@@ -2,3 +2,20 @@
     @include font(900, 4.4rem, 120%);
     text-align: center;
 }
+
+.test-drive__left .title__document {
+    text-align: start;
+    width: 68.2rem;
+}
+
+@media (max-width: 48em) {
+
+    .title__document {
+        font-size: 5.6rem;
+    }
+
+    .test-drive__left .title__document {
+        width: 100%;
+        text-align: center;
+    }
+  }

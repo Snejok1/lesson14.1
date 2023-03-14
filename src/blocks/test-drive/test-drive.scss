@@ -1,0 +1,15 @@
+.test-drive {
+    background: url('../img/test-drive/background.png') top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0x 3.6rem 8.4rem -2.4rem rgba(255, 255, 255, 0.15);
+    border-radius: 1.6rem;
+    padding-bottom: 10.8rem;
+}
+
+@media (max-width: 48em) {
+    .test-drive {
+        background: none;
+        padding-bottom: 9.8rem;
+    }
+  }

@@ -1,0 +1,9 @@
+.test-drive__mobile-img {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .test-drive__mobile-img  {    
+        display: block;
+    }
+  }

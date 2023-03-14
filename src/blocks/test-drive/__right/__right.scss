@@ -1,0 +1,10 @@
+.test-drive__right {
+    margin-top: -5rem;
+}
+
+@media (max-width: 48em) {
+    .test-drive__right {    
+        display: none;
+        margin-top: 0;
+    }
+  }

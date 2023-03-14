@@ -1,0 +1,17 @@
+.form__button {
+    @include font(600, 1.8rem, 140%);
+    background-color: #0074D4;
+    box-shadow: 0 4.3rem 5.1rem rgba(0, 116, 212, 0.2), 0 1.29632rem 1.5375rem rgba(0, 116, 212, 0.241), 0 .538427rem .638599rem rgba(0, 116, 212, 0.15), 0 .194738rem .230969rem rgba(0, 116, 212, 0.059);
+    border-radius: .8rem;
+    padding: 2.6rem 7.2rem 3rem;
+    color: #ffffff;
+    z-index: 2;
+}
+
+@media (max-width: 48em) {
+    .form__button  {
+       font-size: 3.2rem;
+       padding: 3.7rem 11.6rem 4.5rem;
+       border-radius: 1.6rem;
+    }
+  }

@@ -1,0 +1,18 @@
+.form__wrapper {
+    position: relative;
+    width: 180rem;
+    margin: 0 auto;
+    padding-top: 13.6rem;
+    padding-bottom: 10.4rem;
+    background: url('../img/form/bg-form.jpg') no-repeat center;
+    background-size: cover;
+    box-shadow: 0 3.6rem 8.4rem -2.4rem rgba(43, 51, 80, 0.5);
+    border-radius: 1.6rem;
+}
+
+@media (max-width: 48em) {
+    .form__wrapper {
+       width: 100%;
+       border-radius: 0;
+    }
+  }

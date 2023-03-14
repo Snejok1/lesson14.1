@@ -1,0 +1,12 @@
+.clients__img {
+    @include vercen;
+    flex-shrink: 0;
+    padding-left: 3.4rem;
+}
+
+@media (max-width: 48em) {
+    .clients__img {
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+  }

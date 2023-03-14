@@ -1,3 +1,21 @@
 .title {
     padding-bottom: 3.5rem;
 }
+
+.test-drive__left .title {
+    padding-bottom: 1.6rem;
+}
+
+.clients__wrap .title {
+    padding-bottom: 1.5rem;
+}
+
+@media (max-width: 48em) {
+    .test-drive__left .title {
+        padding-bottom: 2.6rem;
+    }
+
+    .clients__wrap .title {
+        padding-bottom: 5.2rem;
+    }
+  }

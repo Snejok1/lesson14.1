@@ -1,0 +1,15 @@
+.form__description {
+    @include font(300, 2.6rem, 150%);
+    width: 58.4rem;
+    margin-bottom: 2.9rem;
+    color: #fff;
+}
+
+@media (max-width: 48em) {
+    .form__description {
+        width: 55.4rem;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+  }

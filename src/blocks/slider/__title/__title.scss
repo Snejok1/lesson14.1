@@ -1,0 +1,10 @@
+.slider__title {
+    position: relative;
+    margin-bottom: 2.1rem;
+}
+
+@media (max-width: 48em) {
+    .slider__title {
+        margin-bottom: 2.4rem;
+    }
+  }

@@ -1,0 +1,17 @@
+.button__test-drive {
+    @include font(600, 1.8rem, 140%);
+    padding: 2.6rem 4.95rem 3rem;
+    width: 29.7rem;
+}
+
+@media (max-width: 48em) {
+    .button__test-drive {
+        font-size: 3.2rem;
+        padding: 3.7rem 6rem 4.5rem;
+        width: 47.2rem;
+    }
+
+    .slider__wrap .button__test-drive {
+        display: none;
+    }
+}

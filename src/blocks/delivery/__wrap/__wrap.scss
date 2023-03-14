@@ -1,11 +1,13 @@
 .delivery__wrap {
     @include maxWindth;
-    padding-bottom: 9.2rem;
 }
 
 @media (max-width: 48em) {
     .delivery__wrap {
       flex-direction: column;
-      padding-bottom: 6.3rem;
+      
+      &:first-child {
+        margin-right: 0;
+      }
     }
   }

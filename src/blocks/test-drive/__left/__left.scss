@@ -1,0 +1,17 @@
+.test-drive__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: -4.7rem;
+    margin-top: 3.3rem;
+}
+
+@media (max-width: 48em) {
+    .test-drive__left {
+        align-items: center;
+        margin-right: 0;
+        margin-top: 0;
+        padding-bottom: 3rem;
+        z-index: 1;
+    }
+  }

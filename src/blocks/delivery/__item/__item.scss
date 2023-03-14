@@ -1,5 +1,5 @@
 .delivery__item {
-    width: 36.3rem;
+    width: 37.7rem;
     @include vercen;
     flex-direction: column;
     flex-shrink: 0;
@@ -8,9 +8,13 @@
 
 @media (max-width: 48em) {
     .delivery__item {
-        width: 57rem;
+        width: 100%;
         flex-direction: row;
-        text-align: start;
-        margin-bottom: 4rem;
+        align-items:flex-start;
+        justify-content: flex-start;
+        
+        &:not(:last-child) {
+            margin-bottom: 4rem;
+        }
     }
   }
